@@ -1,13 +1,11 @@
-# Log.NET - A modular logger written in C#
+# Log.NET - A modular logger written in C-sharp
 
 ### Features
 
-* Support for writing to different outputs:
-* XML files
-* Flat files
-* MSSQL database
-* Eventlog
-* MSMQ
+* Support for writing to different outputs: XML, flat files, MSSQL database, eventlog and MSMQ
+* Support for fallback logs. It writes to a file on the local drive if the log fails.
+* Log tracers that logs when it starts and ends logging
+* Encryption support
 
 ### Examples
 
