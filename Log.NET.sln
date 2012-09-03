@@ -1,0 +1,97 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB79B1AB-4DF4-4B5F-8671-0B1FA52DA06F}"
+	ProjectSection(SolutionItems) = preProject
+		localtestrun.testrunconfig = localtestrun.testrunconfig
+		LoggerLib.vsmdi = LoggerLib.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.NET", "Log.NET\Log.NET.csproj", "{70869C46-BA7A-4014-9765-E41781E62CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.NET Unit Tests", "Log.NET Unit Tests\Log.NET Unit Tests.csproj", "{D5F0A525-73BD-432B-8751-C1AC2D1C228A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.NET Manual Unit Tests", "Log.NET Manual Unit Tests\Log.NET Manual Unit Tests.csproj", "{9161C917-0989-4D8F-8184-B727F863DF47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70869C46-BA7A-4014-9765-E41781E62CD7} = {70869C46-BA7A-4014-9765-E41781E62CD7}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Log.NET WebTests", "Log.NET WebTests\", "{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{70869C46-BA7A-4014-9765-E41781E62CD7}|IQLogger.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Log.NET WebTests"
+		Debug.AspNetCompiler.PhysicalPath = "Log.NET WebTests\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Log.NET WebTests\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Log.NET WebTests"
+		Release.AspNetCompiler.PhysicalPath = "Log.NET WebTests\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Log.NET WebTests\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2903"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = LoggerLib.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Debug|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Debug|Mixed Platforms.Build.0 = Release|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Release|.NET.ActiveCfg = Release|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{70869C46-BA7A-4014-9765-E41781E62CD7}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Release|.NET.ActiveCfg = Release|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D5F0A525-73BD-432B-8751-C1AC2D1C228A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Release|.NET.ActiveCfg = Release|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9161C917-0989-4D8F-8184-B727F863DF47}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{25498A3C-5E27-4A0A-BD92-32C0C85DFD82}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

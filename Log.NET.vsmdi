@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestList name="Default" id="44160d04-2ae4-4211-9020-d81f1e519b67" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink name="LogTracer" storage="testproject1\bin\debug\testproject1.dll" id="509c9234-75c3-7e1d-0c0d-093facb6d0b7" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Encryption" id="71b89cae-cf12-4afb-b064-6e06ce9d9c48" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink name="EncryptTest" storage="testproject1\bin\debug\testproject1.dll" id="dee5eb06-5ce7-bb09-ef61-d6b4349cb46b" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="DecryptTest" storage="testproject1\bin\debug\testproject1.dll" id="cc62688a-9393-429a-dbf7-0343811ae13d" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Lists of Tests" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <RunConfiguration name="Local Test Run" storage="localtestrun.testrunconfig" id="731b1fa9-02df-46d3-9dba-034cb94ef8d0" type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration" />
+  </TestList>
+  <TestList name="Appenders" id="bf578454-cdc3-471f-9833-eab6fb420e86" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink name="EventLogAppender" storage="testproject1\bin\debug\testproject1.dll" id="f359d5b5-29b7-adf8-90c4-52065298521a" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="FlatFileAppender" storage="testproject1\bin\debug\testproject1.dll" id="1cd29982-a4da-5bce-d694-d24156be73f5" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="SqlServerAppender" storage="testproject1\bin\debug\testproject1.dll" id="eb2953a3-4fe9-2198-f997-c8b41e1b5573" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="XmlFileAppender" storage="testproject1\bin\debug\testproject1.dll" id="857d42e3-cd87-6ef2-abee-c8948a185d3d" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="NetSendAppender" storage="testproject1\bin\debug\testproject1.dll" id="de71a7bc-55c3-9cd4-9ef2-c434b75096a8" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="SmtpAppender" storage="testproject1\bin\debug\testproject1.dll" id="34d1b236-be8c-4f80-a4c3-982a55186f02" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="MsmqAppender" storage="testproject1\bin\debug\testproject1.dll" id="8d9d3833-e7fa-964d-064b-ec25085f7e69" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="MsnMessengerAppender" storage="testproject1\bin\debug\testproject1.dll" id="48faaa3f-a442-ba6b-4165-dcc840d9a6a5" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+</TestLists>

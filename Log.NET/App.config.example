@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionStrings>
+		<!-- The connectionstring to use if you want to use SQL server. This need to be named LoggingServer -->
+		<add name="LoggingServer" connectionString="Insert ConnectionString here"/>
+	</connectionStrings>
+	<appSettings>
+		<!-- The name of the application -->
+		<add key="ApplicationName" value="Tests"/>
+
+		<!-- The path to the logging destination, if you application is a web application
+          use ~/LogPath/ or /Path/To/LogPath/ format. If you are using a library or windows application
+          use the full path to the logging directory: c:\path\to\logging\dir\ or a relative path
+		  like \tmp\logfiles\ -->
+		<add key="LogPath" value="C:\Temp\Logs\"/>
+
+    <!-- Fallback logs, this needs to be set in you app.config file -->
+    <add key="EnableFallBackLogs" value="True"/>
+
+    <!-- The path to the fallback logs, this is where the server logs to if it fails to log to
+		 the choosen destination -->
+		<add key="FallbackLogPath" value="C:\Temp\FallbackLogPath\"/>
+
+		<!-- The email that log messages are sent to -->
+    <add key="ToEmail" value="email@example.com"/>
+    <add key="FromEmail" value="logger@example.com"/>
+
+    <!-- The SMTP server information that should be used to send messages, leave username and password blank
+		 if the server is without authentication -->
+		<add key="SmtpServer" value="smtp.domain.com"/>
+		<add key="SmtpUsername" value=""/>
+		<add key="SmtpPassword" value=""/>
+
+		<!-- The path to the MSMQ server queue -->
+		<add key="MsmqPath" value="FormatName:DIRECT=TCP:127.0.0.1\Private$\queue"/>
+
+		<!-- Encryption -->
+		<add key="EncryptionPassword" value="PasswordHere"/>
+		<add key="EncryptionSalt" value="SaltHere"/>
+
+		<!-- Block size, supported block size is: 128, 192 or 256 bits -->
+		<add key="EncryptionBlockSize" value="128"/>
+	</appSettings>
+</configuration>
